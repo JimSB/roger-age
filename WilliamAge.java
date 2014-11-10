@@ -17,7 +17,7 @@ public class WilliamAge
         else
         {
             if (age > 2)
-                System.out.println("That's way too old!");
+                System.out.println("That is way too old!");
             else
             {
                 if (age == 2)
