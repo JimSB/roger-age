@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WilliamAge
+public class RogerAge
 
 {
     public static void main(String[] args)
@@ -12,15 +12,15 @@ public class WilliamAge
         System.out.print("How old is William?");
         age = keyboard.nextInt();
         
-        if (age < 2) 
+        if (age < 5) 
             System.out.println("NO! He's not that young!");
         else
         {
-            if (age > 2)
+            if (age > 5)
                 System.out.println("That is way too old!");
             else
             {
-                if (age == 2)
+                if (age == 5)
                     System.out.println("Good, otherwise I'm programmed to tell you you're wrong!");
             }
         }
