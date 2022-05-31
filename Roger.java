@@ -9,7 +9,7 @@ public class RogerAge
         
         int age;
         
-        System.out.print("How old is William?");
+        System.out.print("How old is Roger?");
         age = keyboard.nextInt();
         
         if (age < 5) 
